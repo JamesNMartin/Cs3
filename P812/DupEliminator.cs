@@ -1,6 +1,8 @@
 ﻿//DATE          DEVELOPER          DESCRIPTION
 //2019-01-27    jmsnmrtn           PROJECT CREATED, COMMITED, AND PUSHED (ALL CSx ASSIGNMENTS ARE PRIVATE REPOS)
-//2019-2-2      jmsnmrtn           ASSIGNMENT DUPELIM FINISHED 
+//2019-2-2      jmsnmrtn           ASSIGNMENT DUPELIM FINISHED
+//2019-2-2      jmsnmrtn           ADDED ASCII TEXT GRAPHIC FOR PROGRAM HEADER
+
 
 using System;
 using System.Collections.Generic;
@@ -18,6 +20,29 @@ namespace DuplicateElimination
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(@"
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+    ____              ___            __               
+   / __ \__  ______  / (_)________ _/ /____           
+  / / / / / / / __ \/ / / ___/ __ `/ __/ _ \          
+ / /_/ / /_/ / /_/ / / / /__/ /_/ / /_/  __/          
+/_____/\__,_/ .___/_/_/\___/\__,_/\__/\___/           
+    _______///          _             __  _           
+   / ____/ (_)___ ___  (_)___  ____ _/ /_(_)___  ____ 
+  / __/ / / / __ `__ \/ / __ \/ __ `/ __/ / __ \/ __ \
+ / /___/ / / / / / / / / / / / /_/ / /_/ / /_/ / / / /
+/_____/_/_/_/ /_/ /_/_/_/ /_/\__,_/\__/_/\____/_/ /_/ 
+
+How to use:
+This program is rather simple to use. Input any five numbers
+between 10 and 100. If you enter a number twice this
+program will remove the dupes and spit out the array without
+them. These numbers have to be whole numbers. They are
+processed as ints.
+                                                      
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+
+");
             int[] numberArray = new int[5];//Make new int array with length 5
 
             for (int i = 0; i < numberArray.Length; i++)//Going through array
